@@ -44,6 +44,7 @@ function Main() {
       <div className="input-text">
         <form onSubmit={onSubmitText}>
           <input
+            type="text"
             onChange={e => setObject({ id: 1, text: e.target.value })}
             value={object.text}
             placeholder="Tulis pesan"
